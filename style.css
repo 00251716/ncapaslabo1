@@ -1,6 +1,16 @@
 /**
  * Tabs
  */
+
+.title {
+	background: #ffff;
+	width: 60%;
+	margin: 0 auto;
+  	font-weight: bold;
+	border-style: solid;
+	padding: 10px;
+}
+
 .tabs {
 	display: flex;
 	flex-wrap: wrap; // make sure it wraps
@@ -16,12 +26,12 @@
   transition: background ease 0.2s;
 }
 .tabs .tab {
-  order: 99; // Put the tabs last
-  flex-grow: 1;
+  	order: 99; // Put the tabs last
+  	flex-grow: 1;
 	width: 100%;
 	display: none;
-  padding: 1rem;
-  background: #fff;
+  	padding: 1rem;
+  	background: #fff;
 }
 .tabs input[type="radio"] {
 	display: none;
@@ -45,20 +55,16 @@
   }
 }
 
-/**
- * Generic Styling
-*/
 body {
-  background: #eee;
-  min-height: 100vh;
+  	background: #eee;
+  	min-height: 100vh;
 	box-sizing: border-box;
 	padding-top: 10vh;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
-  line-height: 1.5;
-  max-width: 60rem;
-  margin: 0 auto;
-  font-size: 112%;
+  	font-weight: 300;
+  	line-height: 1.5;
+  	max-width: 60rem;
+  	margin: 0 auto;
+  	font-size: 112%;
 }
 
 
